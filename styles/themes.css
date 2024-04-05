@@ -1,0 +1,8 @@
+body[theme="main"] {
+    --backgroundColor: rgb(25, 25, 25);
+    --textColor: rgb(220, 220, 220);
+    --buttonColor: rgb(50, 50, 50);
+    --shadows: rgb(90, 90, 90);
+    --border:  rgb(150, 150, 150);
+    --alt: rgb(150, 150, 150);
+};
