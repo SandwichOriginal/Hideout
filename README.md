@@ -1,0 +1,2 @@
+# Hideout
+Unblocked Games Hideout
