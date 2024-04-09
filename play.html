@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hideout</title>
-    <link rel="stylesheet" href="styles/index.css">
+    <title>Hideout | Play</title>
+    <link rel="stylesheet" href="/styles/play.css">
 </head>
 <body>
     <div id="particles-js"></div>
@@ -13,13 +13,12 @@
         <div class="contextMenuLine1"></div>
         <button class="contextMenuOpenButton2" id="contextMenuOpenButton2">Panic <i class="fa-solid fa-triangle-exclamation"></i></button>
     </div>
-    <div class="container" id="container"></div>
-    <div class="centerContainer">
-        <p class="randomText" id="randomText"></p>
-        <button class="playButton" id="playButton">Play</button>
+    <div class="container" id="container">
+        <div class="gameContainer">
+            <iframe src="" class="gameIframe" id="gameIframe"></iframe>
+        </div>
     </div>
     <script src="scripts/main.js"></script>
-    <script src="scripts/index.js"></script>
     <script src="scripts/contextMenu.js"></script>
     <script src="scripts/navbar.js"></script>
     <script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
